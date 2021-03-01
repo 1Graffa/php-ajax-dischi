@@ -55,6 +55,12 @@ $dischi = [
         'anno' => '1978',
         'img' => "img/bud.jpg"
     ],
+    [
+        'album' => 'Daft Punk Tribute',
+        'autore' => 'Daft Punk',
+        'anno' => '2021',
+        'img' => "img/punk.jpg"
+    ]
 ];
 
 ?>

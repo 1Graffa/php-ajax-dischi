@@ -1,3 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  background-image: url("https://wallpaperaccess.com/full/1926578.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header, footer {
+  background-color: rgba(240, 240, 240, 0.8);
+  border-bottom: 2px 2px 2px 2px black;
+  width: 100%;
+  padding-bottom: 10px;
+}
+header .logo, footer .logo {
+  margin: 0 50px;
+}
+header img, footer img {
+  width: 200px;
+  transition: 0.3s;
+}
+header img:hover, footer img:hover {
+  transform: rotate(360deg);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .box {
+  text-align: center;
+  margin: 10px 10px;
+  line-height: 1.4;
+  background-color: rgba(240, 240, 240, 0.4);
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px black;
+}
+main .box:hover {
+  background-color: rgba(240, 240, 240, 0.8);
+}
+main .box img {
+  opacity: 0.7;
+  width: 200px;
+  border-radius: 10% 10% 50% 50%;
+  box-shadow: 2px 2px 2px 2px black;
+}
+main .box img:hover {
+  opacity: 1;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+footer .btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px;
+}
+footer .btn-social:hover {
+  background-color: white;
+  color: #2C3E50;
 }
