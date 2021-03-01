@@ -1,6 +1,6 @@
 <?php 
 
-dischi= [
+$dischi = [
     [
         'album' => '24H',
         'autore' => 'Tom Jones',
@@ -35,7 +35,7 @@ dischi= [
         'album' => "Gigi Dag 90'",
         'autore' => "Gigi d'agostino",
         'anno' => '2005',
-        'img' => 
+        'img' => "img/gigi.jpg"
     ],
     [
         'album' => 'Nuvole e pover',
@@ -47,15 +47,14 @@ dischi= [
         'album' => 'Fred GH',
         'autore' => 'Fred Buscaglione',
         'anno' => '1960',
-        'img' => 
+        'img' => "img/fred.jpg"
     ],
     [
-        'album' => 'Bud & Terence'
-        'autore' => 'Oliver Onions'
+        'album' => 'Bud & Terence',
+        'autore' => 'Oliver Onions',
         'anno' => '1978',
         'img' => "img/bud.jpg"
-    ]
-
+    ],
 ];
 
 ?>
