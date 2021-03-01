@@ -8,22 +8,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/app.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <title>Dischi</title>
 </head>
 
-
 <body>
     <main>
+
+    <div>
         <?php foreach ($dischi as $elementi) { ?>
         <img src= "<?php echo $elementi['img'] ?>">
         <h2><?php echo $elementi['album']?></h2> 
         <h2><?php echo $elementi['autore']?></h2> 
         <h2><?php echo $elementi['anno']?></h2> 
-         
-    <?php }?>
+        <?php }?>
+    </div>
 
     </main>
     
+    <script src="dist/app.js" charset="utf-8"></script>
 </body>
 </html>
