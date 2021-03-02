@@ -1,13 +1,15 @@
-let app = new Vue({
+var app = new Vue({
     el: '#app',
     data: {
-        arrayDischi:[]
+        dischi:[]
     },
     mounted(){
-        anxios
+        alert('ciao');
+        axios
         .get('server.php')
         .then (response => {
             this.dischi= response.data;
         });
+        
     }
 });

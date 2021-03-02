@@ -1,6 +1,6 @@
 <?php
 include 'db.php';
-header('Content-Type:
+('Content-Type:
 applicatin/json');
 echo json_encode($dischi);
 ?>
