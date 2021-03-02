@@ -1,0 +1,16 @@
+.btn-social {
+    display: inline-flex;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 10px;
+        &:hover {
+            background-color: white;
+            color: #2C3E50;
+        }
+    }

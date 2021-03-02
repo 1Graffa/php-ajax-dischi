@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-body {
-  background-image: url("https://wallpaperaccess.com/full/1926578.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.container {
+  margin: 0 100px;
 }
 
 header, footer {
@@ -25,7 +23,7 @@ header img, footer img {
   transition: 0.3s;
 }
 header img:hover, footer img:hover {
-  transform: rotate(360deg);
+  transform: rotate(1360deg);
 }
 
 main {
@@ -62,9 +60,10 @@ footer ul {
   align-items: center;
   list-style: none;
 }
-footer .btn-social {
-  border-radius: 100%;
+
+.btn-social {
   display: inline-flex;
+  border-radius: 50%;
   font-size: 20px;
   width: 40px;
   height: 40px;
@@ -74,7 +73,7 @@ footer .btn-social {
   background-color: transparent;
   margin: 10px;
 }
-footer .btn-social:hover {
+.btn-social:hover {
   background-color: white;
   color: #2C3E50;
 }
