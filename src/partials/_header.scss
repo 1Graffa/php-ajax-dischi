@@ -1,4 +1,4 @@
-header,footer{
+header{
     background-color: rgba(240, 240, 240, 0.8);
     border-bottom:  2px 2px 2px 2px black;;
     width: 100%;
@@ -10,7 +10,7 @@ header,footer{
            width: 200px;
             transition: 0.3s;
         &:hover{
-             transform: rotate(180deg);
+             transform: rotate(360deg);
             }
         }
 
