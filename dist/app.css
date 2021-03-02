@@ -5,12 +5,19 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-image: url("https://i.ytimg.com/vi/LI7qiZj0T1M/maxresdefault.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
   margin: 0 100px;
 }
 
 header {
-  background-color: rgba(240, 240, 240, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   border-bottom: 2px 2px 2px 2px black;
   width: 100%;
   padding-bottom: 10px;
@@ -20,10 +27,12 @@ header .logo {
 }
 header img {
   width: 200px;
-  transition: 0.3s;
+  transition: 0.2s;
+  background-color: rgba(240, 240, 240, 0.8);
+  border-radius: 50%;
 }
 header img:hover {
-  transform: rotate(360deg);
+  background-color: #f0f0f0;
 }
 
 main {
@@ -55,7 +64,7 @@ main .box img:hover {
 }
 
 footer {
-  background-color: rgba(240, 240, 240, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   border-bottom: 2px 2px 2px 2px black;
   width: 100%;
   padding-bottom: 10px;
@@ -76,7 +85,7 @@ footer ul {
   border: 1px solid white;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
+  background-color: 240, 240, 240, 0.5;
   margin: 10px;
 }
 .btn-social:hover {
